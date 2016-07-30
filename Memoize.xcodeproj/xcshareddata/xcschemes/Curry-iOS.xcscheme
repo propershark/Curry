@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F886307C1B4EF9F800F53969"
-               BuildableName = "Curry.framework"
-               BlueprintName = "Curry-Mac"
-               ReferencedContainer = "container:Curry.xcodeproj">
+               BlueprintIdentifier = "F88630551B4EF96200F53969"
+               BuildableName = "Memoize.framework"
+               BlueprintName = "Memoize-iOS"
+               ReferencedContainer = "container:Memoize.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F886307C1B4EF9F800F53969"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-Mac"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BlueprintIdentifier = "F88630551B4EF96200F53969"
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-iOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F886307C1B4EF9F800F53969"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-Mac"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BlueprintIdentifier = "F88630551B4EF96200F53969"
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-iOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Curry.xcodeproj">
+      location = "self:/Users/herooftime/Dropbox/Proper Shark/Curry/Memoize.xcodeproj">
    </FileRef>
 </Workspace>

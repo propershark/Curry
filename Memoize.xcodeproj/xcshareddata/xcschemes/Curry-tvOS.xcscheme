@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "80E059061BA9FA7F0077CBA7"
-               BuildableName = "Curry.framework"
-               BlueprintName = "Curry-tvOS"
-               ReferencedContainer = "container:Curry.xcodeproj">
+               BuildableName = "Memoize.framework"
+               BlueprintName = "Memoize-tvOS"
+               ReferencedContainer = "container:Memoize.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80E059061BA9FA7F0077CBA7"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-tvOS"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-tvOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "80E059061BA9FA7F0077CBA7"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-tvOS"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-tvOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

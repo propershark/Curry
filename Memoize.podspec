@@ -1,15 +1,15 @@
 Pod::Spec.new do |spec|
-  spec.name = 'Curry'
-  spec.version = '2.2.0'
-  spec.summary = 'Function Currying for Swift'
-  spec.homepage = 'https://github.com/thoughtbot/curry'
+  spec.name = 'Memoize'
+  spec.version = '1.0.0'
+  spec.summary = 'Function Memoization in Swift'
+  spec.homepage = 'https://github.com/propershark/memoize'
   spec.license = { :type => 'MIT', :file => 'LICENSE' }
   spec.author = {
-    'Gordon Fontenot' => 'gordon@thoughtbot.com',
+    'Elliott Williams' => 'code@emw.ms',
+    'Gordon Fontenot' => nil,
     'thoughtbot' => nil,
   }
-  spec.social_media_url = 'http://twitter.com/thoughtbot'
-  spec.source = { :git => 'https://github.com/thoughtbot/curry.git', :tag => "v#{spec.version}" }
+  spec.source = { :git => 'https://github.com/propershark/memoize.git', :tag => "v#{spec.version}" }
   spec.source_files = 'Source/**/*.{h,swift}'
   spec.requires_arc = true
   spec.ios.deployment_target = '8.0'

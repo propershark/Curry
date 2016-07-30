@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "804D01F21BA3684C0005BBC4"
-               BuildableName = "Curry.framework"
-               BlueprintName = "Curry-watchOS"
-               ReferencedContainer = "container:Curry.xcodeproj">
+               BuildableName = "Memoize.framework"
+               BlueprintName = "Memoize-watchOS"
+               ReferencedContainer = "container:Memoize.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "804D01F21BA3684C0005BBC4"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-watchOS"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-watchOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "804D01F21BA3684C0005BBC4"
-            BuildableName = "Curry.framework"
-            BlueprintName = "Curry-watchOS"
-            ReferencedContainer = "container:Curry.xcodeproj">
+            BuildableName = "Memoize.framework"
+            BlueprintName = "Memoize-watchOS"
+            ReferencedContainer = "container:Memoize.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

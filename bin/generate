@@ -37,7 +37,6 @@ func curryDefinitionGenerator(arguments arguments: Int) -> String {
   let returnType = genericParameters.last! // "C"
 
   let functionArguments = "(\(commaConcat(inputParameters)))" // "(A, B)"
-  let returnFunctionArguments = inputParameters.joinWithSeparator(" -> ") // " A -> B"
   let innerFunctionArguments = commaConcat(lowerFunctionArguments) // "`a`, `b`"
 
   let functionDefinition = "function(\(innerFunctionArguments))" // return function(`a`, `b`)
@@ -48,8 +47,8 @@ func curryDefinitionGenerator(arguments arguments: Int) -> String {
   } // "{ (`a`: A) -> B -> C in { (`b`: B) -> C in function(`a`, `b`) } }"
 
   let curry = [
-    "public func memoizedCurry\(genericTypeDefinition)(function: \(functionArguments) -> \(returnType)) -> \(returnFunctionArguments) -> \(returnType) {",
-    "    return \(implementation)",
+    "public func memoize\(genericTypeDefinition)(function: \(functionArguments) -> \(returnType)) -> \(functionArguments) -> \(returnType) {",
+    "    return { \(innerFunctionArguments) in \(implementation)(\(lowerFunctionArguments.joinWithSeparator(")("))) }",
     "}"
   ]
 
@@ -61,12 +60,12 @@ print("Generating 💬")
 let input = Process.arguments[safe: 1] ?? "20"
 let limit = Int(input)!
 
-let start = 2
+let start = 3
 let curries = (start...limit+1).map { curryDefinitionGenerator(arguments: $0) }
 
 let output = curries.joinWithSeparator("\n\n") + "\n"
 
-let outputPath = "Source/MemoizedCurry.swift"
+let outputPath = "Source/MemoizeMultiple.swift"
 let currentPath = NSURL(fileURLWithPath: NSFileManager.defaultManager().currentDirectoryPath)
 let currySwiftPath = currentPath.URLByAppendingPathComponent(outputPath)
 

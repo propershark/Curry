@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		804D01FB1BA3687E0005BBC4 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88630991B4EFD7600F53969 /* Curry.swift */; };
-		804D01FC1BA368820005BBC4 /* Curry.h in Headers */ = {isa = PBXBuildFile; fileRef = F88630741B4EF9B200F53969 /* Curry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		80E0590F1BA9FAC10077CBA7 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88630991B4EFD7600F53969 /* Curry.swift */; };
-		80E059101BA9FAC50077CBA7 /* Curry.h in Headers */ = {isa = PBXBuildFile; fileRef = F88630741B4EF9B200F53969 /* Curry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F88630761B4EF9B200F53969 /* Curry.h in Headers */ = {isa = PBXBuildFile; fileRef = F88630741B4EF9B200F53969 /* Curry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F88630961B4EFA2700F53969 /* Curry.h in Headers */ = {isa = PBXBuildFile; fileRef = F88630741B4EF9B200F53969 /* Curry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F886309A1B4EFD7600F53969 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88630991B4EFD7600F53969 /* Curry.swift */; };
-		F886309B1B4EFD7600F53969 /* Curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88630991B4EFD7600F53969 /* Curry.swift */; };
+		26A7AF611D4CF5CE00A5A726 /* Memoize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A71D4CF44A004BA788 /* Memoize.swift */; };
+		26A7AF621D4CF5CE00A5A726 /* MemoizeMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */; };
+		26A7AF631D4CF5CF00A5A726 /* Memoize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A71D4CF44A004BA788 /* Memoize.swift */; };
+		26A7AF641D4CF5CF00A5A726 /* MemoizeMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */; };
+		26A7AF651D4CF5D000A5A726 /* Memoize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A71D4CF44A004BA788 /* Memoize.swift */; };
+		26A7AF661D4CF5D000A5A726 /* MemoizeMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */; };
+		26D2B3A91D4CF44A004BA788 /* Memoize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A71D4CF44A004BA788 /* Memoize.swift */; };
+		26D2B3AA1D4CF44A004BA788 /* MemoizeMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		804D01F31BA3684C0005BBC4 /* Curry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		80E059071BA9FA7F0077CBA7 /* Curry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88630561B4EF96200F53969 /* Curry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88630741B4EF9B200F53969 /* Curry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Curry.h; sourceTree = "<group>"; };
+		26D2B3A71D4CF44A004BA788 /* Memoize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Memoize.swift; sourceTree = "<group>"; };
+		26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoizeMultiple.swift; sourceTree = "<group>"; };
+		804D01F31BA3684C0005BBC4 /* Memoize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memoize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E059071BA9FA7F0077CBA7 /* Memoize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memoize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F88630561B4EF96200F53969 /* Memoize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memoize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F88630751B4EF9B200F53969 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F886307D1B4EF9F800F53969 /* Curry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F88630991B4EFD7600F53969 /* Curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
+		F886307D1B4EF9F800F53969 /* Memoize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Memoize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,10 +71,10 @@
 		F88630571B4EF96200F53969 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F88630561B4EF96200F53969 /* Curry.framework */,
-				F886307D1B4EF9F800F53969 /* Curry.framework */,
-				804D01F31BA3684C0005BBC4 /* Curry.framework */,
-				80E059071BA9FA7F0077CBA7 /* Curry.framework */,
+				F88630561B4EF96200F53969 /* Memoize.framework */,
+				F886307D1B4EF9F800F53969 /* Memoize.framework */,
+				804D01F31BA3684C0005BBC4 /* Memoize.framework */,
+				80E059071BA9FA7F0077CBA7 /* Memoize.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +82,8 @@
 		F88630721B4EF9B200F53969 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				F88630991B4EFD7600F53969 /* Curry.swift */,
+				26D2B3A71D4CF44A004BA788 /* Memoize.swift */,
+				26D2B3A81D4CF44A004BA788 /* MemoizeMultiple.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -90,7 +91,6 @@
 		F88630731B4EF9B200F53969 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F88630741B4EF9B200F53969 /* Curry.h */,
 				F88630751B4EF9B200F53969 /* Info.plist */,
 			);
 			path = Resources;
@@ -103,7 +103,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804D01FC1BA368820005BBC4 /* Curry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,7 +110,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E059101BA9FAC50077CBA7 /* Curry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +117,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88630761B4EF9B200F53969 /* Curry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,16 +124,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F88630961B4EFA2700F53969 /* Curry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		804D01F21BA3684C0005BBC4 /* Curry-watchOS */ = {
+		804D01F21BA3684C0005BBC4 /* Memoize-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 804D01FA1BA3684C0005BBC4 /* Build configuration list for PBXNativeTarget "Curry-watchOS" */;
+			buildConfigurationList = 804D01FA1BA3684C0005BBC4 /* Build configuration list for PBXNativeTarget "Memoize-watchOS" */;
 			buildPhases = (
 				804D01EE1BA3684C0005BBC4 /* Sources */,
 				804D01EF1BA3684C0005BBC4 /* Frameworks */,
@@ -147,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = "Curry-watchOS";
+			name = "Memoize-watchOS";
 			productName = "Curry-watchOS";
-			productReference = 804D01F31BA3684C0005BBC4 /* Curry.framework */;
+			productReference = 804D01F31BA3684C0005BBC4 /* Memoize.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		80E059061BA9FA7F0077CBA7 /* Curry-tvOS */ = {
+		80E059061BA9FA7F0077CBA7 /* Memoize-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80E0590E1BA9FA7F0077CBA7 /* Build configuration list for PBXNativeTarget "Curry-tvOS" */;
+			buildConfigurationList = 80E0590E1BA9FA7F0077CBA7 /* Build configuration list for PBXNativeTarget "Memoize-tvOS" */;
 			buildPhases = (
 				80E059021BA9FA7F0077CBA7 /* Sources */,
 				80E059031BA9FA7F0077CBA7 /* Frameworks */,
@@ -165,14 +161,14 @@
 			);
 			dependencies = (
 			);
-			name = "Curry-tvOS";
+			name = "Memoize-tvOS";
 			productName = "Curry-tvOS";
-			productReference = 80E059071BA9FA7F0077CBA7 /* Curry.framework */;
+			productReference = 80E059071BA9FA7F0077CBA7 /* Memoize.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F88630551B4EF96200F53969 /* Curry-iOS */ = {
+		F88630551B4EF96200F53969 /* Memoize-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F886306C1B4EF96200F53969 /* Build configuration list for PBXNativeTarget "Curry-iOS" */;
+			buildConfigurationList = F886306C1B4EF96200F53969 /* Build configuration list for PBXNativeTarget "Memoize-iOS" */;
 			buildPhases = (
 				F88630511B4EF96200F53969 /* Sources */,
 				F88630521B4EF96200F53969 /* Frameworks */,
@@ -183,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = "Curry-iOS";
+			name = "Memoize-iOS";
 			productName = Curry;
-			productReference = F88630561B4EF96200F53969 /* Curry.framework */;
+			productReference = F88630561B4EF96200F53969 /* Memoize.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F886307C1B4EF9F800F53969 /* Curry-Mac */ = {
+		F886307C1B4EF9F800F53969 /* Memoize-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F88630901B4EF9F800F53969 /* Build configuration list for PBXNativeTarget "Curry-Mac" */;
+			buildConfigurationList = F88630901B4EF9F800F53969 /* Build configuration list for PBXNativeTarget "Memoize-Mac" */;
 			buildPhases = (
 				F88630781B4EF9F800F53969 /* Sources */,
 				F88630791B4EF9F800F53969 /* Frameworks */,
@@ -201,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = "Curry-Mac";
+			name = "Memoize-Mac";
 			productName = "Curry-Mac";
-			productReference = F886307D1B4EF9F800F53969 /* Curry.framework */;
+			productReference = F886307D1B4EF9F800F53969 /* Memoize.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -230,7 +226,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F88630501B4EF96200F53969 /* Build configuration list for PBXProject "Curry" */;
+			buildConfigurationList = F88630501B4EF96200F53969 /* Build configuration list for PBXProject "Memoize" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -242,10 +238,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F88630551B4EF96200F53969 /* Curry-iOS */,
-				F886307C1B4EF9F800F53969 /* Curry-Mac */,
-				804D01F21BA3684C0005BBC4 /* Curry-watchOS */,
-				80E059061BA9FA7F0077CBA7 /* Curry-tvOS */,
+				F88630551B4EF96200F53969 /* Memoize-iOS */,
+				F886307C1B4EF9F800F53969 /* Memoize-Mac */,
+				804D01F21BA3684C0005BBC4 /* Memoize-watchOS */,
+				80E059061BA9FA7F0077CBA7 /* Memoize-tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -286,7 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				804D01FB1BA3687E0005BBC4 /* Curry.swift in Sources */,
+				26A7AF641D4CF5CF00A5A726 /* MemoizeMultiple.swift in Sources */,
+				26A7AF631D4CF5CF00A5A726 /* Memoize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E0590F1BA9FAC10077CBA7 /* Curry.swift in Sources */,
+				26A7AF661D4CF5D000A5A726 /* MemoizeMultiple.swift in Sources */,
+				26A7AF651D4CF5D000A5A726 /* Memoize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +300,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F886309A1B4EFD7600F53969 /* Curry.swift in Sources */,
+				26D2B3AA1D4CF44A004BA788 /* MemoizeMultiple.swift in Sources */,
+				26D2B3A91D4CF44A004BA788 /* Memoize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +309,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F886309B1B4EFD7600F53969 /* Curry.swift in Sources */,
+				26A7AF621D4CF5CE00A5A726 /* MemoizeMultiple.swift in Sources */,
+				26A7AF611D4CF5CE00A5A726 /* Memoize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -353,7 +353,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -376,7 +376,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -397,7 +397,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -507,8 +507,8 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_BUNDLE_IDENTIFIER = ms.emw.Memoize;
+				PRODUCT_NAME = Memoize;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -526,8 +526,8 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_BUNDLE_IDENTIFIER = ms.emw.Memoize;
+				PRODUCT_NAME = Memoize;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -552,7 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -573,7 +573,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtbot.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Curry;
+				PRODUCT_NAME = Memoize;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -582,7 +582,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		804D01FA1BA3684C0005BBC4 /* Build configuration list for PBXNativeTarget "Curry-watchOS" */ = {
+		804D01FA1BA3684C0005BBC4 /* Build configuration list for PBXNativeTarget "Memoize-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				804D01F81BA3684C0005BBC4 /* Debug */,
@@ -591,7 +591,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80E0590E1BA9FA7F0077CBA7 /* Build configuration list for PBXNativeTarget "Curry-tvOS" */ = {
+		80E0590E1BA9FA7F0077CBA7 /* Build configuration list for PBXNativeTarget "Memoize-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80E0590C1BA9FA7F0077CBA7 /* Debug */,
@@ -600,7 +600,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F88630501B4EF96200F53969 /* Build configuration list for PBXProject "Curry" */ = {
+		F88630501B4EF96200F53969 /* Build configuration list for PBXProject "Memoize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F886306A1B4EF96200F53969 /* Debug */,
@@ -609,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F886306C1B4EF96200F53969 /* Build configuration list for PBXNativeTarget "Curry-iOS" */ = {
+		F886306C1B4EF96200F53969 /* Build configuration list for PBXNativeTarget "Memoize-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F886306D1B4EF96200F53969 /* Debug */,
@@ -618,7 +618,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F88630901B4EF9F800F53969 /* Build configuration list for PBXNativeTarget "Curry-Mac" */ = {
+		F88630901B4EF9F800F53969 /* Build configuration list for PBXNativeTarget "Memoize-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F88630911B4EF9F800F53969 /* Debug */,
