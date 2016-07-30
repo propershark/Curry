@@ -24,9 +24,13 @@ func commaConcat(xs: [String]) -> String {
   return xs.joinWithSeparator(", ")
 }
 
+func constraintConcat(xs: [String]) -> String {
+  return xs.joinWithSeparator(":Hashable, ")
+}
+
 func curryDefinitionGenerator(arguments arguments: Int) -> String {
   let genericParameters = (0..<arguments).map(genericTypeForPosition) // ["A", "B", "C"]
-  let genericTypeDefinition = "<\(commaConcat(genericParameters))>" // "<A, B, C>"
+  let genericTypeDefinition = "<\(constraintConcat(genericParameters))>" // "<A:Hashable, B:Hashable, C>"
 
   let inputParameters = Array(genericParameters[0..<arguments - 1]) // ["A", "B"]
   let lowerFunctionArguments = inputParameters.map { "`\($0.lowercaseString)`" } // ["`a`", "`b`"]
@@ -40,11 +44,11 @@ func curryDefinitionGenerator(arguments arguments: Int) -> String {
 
   let implementation = lowerFunctionArguments.enumerate().reverse().reduce(functionDefinition) { accum, tuple in
     let (index, argument) = tuple
-    return "{ (\(argument): \(inputParameters[index])) -> \(genericParameters.suffixFrom(index + 1).joinWithSeparator(" -> ")) in \(accum) }"
+    return "memoize({ (\(argument): \(inputParameters[index])) -> \(genericParameters.suffixFrom(index + 1).joinWithSeparator(" -> ")) in \(accum) })"
   } // "{ (`a`: A) -> B -> C in { (`b`: B) -> C in function(`a`, `b`) } }"
 
   let curry = [
-    "public func curry\(genericTypeDefinition)(function: \(functionArguments) -> \(returnType)) -> \(returnFunctionArguments) -> \(returnType) {",
+    "public func memoizedCurry\(genericTypeDefinition)(function: \(functionArguments) -> \(returnType)) -> \(returnFunctionArguments) -> \(returnType) {",
     "    return \(implementation)",
     "}"
   ]
@@ -62,7 +66,7 @@ let curries = (start...limit+1).map { curryDefinitionGenerator(arguments: $0) }
 
 let output = curries.joinWithSeparator("\n\n") + "\n"
 
-let outputPath = "Source/Curry.swift"
+let outputPath = "Source/MemoizedCurry.swift"
 let currentPath = NSURL(fileURLWithPath: NSFileManager.defaultManager().currentDirectoryPath)
 let currySwiftPath = currentPath.URLByAppendingPathComponent(outputPath)
 
